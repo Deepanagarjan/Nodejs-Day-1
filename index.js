@@ -18,7 +18,7 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/',(req,res)=>
-    res.status(200).send(`<span style="background-color:Aqua;color:black;font-size:100px">welcome to the first endpoint</span>)
+    res.status(200).send(`<span style="background-color:Aqua;color:black;font-size:100px">welcome to the first endpoint</span>`)
 )
 //running part
 app.listen(PORT,()=>{
